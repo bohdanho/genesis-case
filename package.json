@@ -1,0 +1,23 @@
+{
+  "name": "exchange-rate-bot",
+  "version": "1.0.0",
+  "description": "a simple application used to provide users with an information on current UAH/USD exchange rates built for Genesis Software Engineering School ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "exchange-rate",
+    "email",
+    "currency",
+    "subscription"
+  ],
+  "author": "bohdanho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "request": "^2.88.2"
+  }
+}
